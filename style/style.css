@@ -1,0 +1,83 @@
+body {
+font-family: Manrope;
+margin-left: 128px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    font-style: normal;
+    color: #121212;
+    letter-spacing: -0.03em;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+/*Мы команда*/
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+/* О НАС */
+h4 {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 45px;
+}
+
+/* Студия основана в 2011 году */
+
+.aboutUs {
+    width: 1048px;
+    height: 385px;
+    margin-right: 120px;
+    margin-top: 274px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+
+/* 1 картинка */ 
+.firstBlok {
+    width: 1150px;
+    height: 500px;
+    background-image: url(../resources/1picture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.firstBlokText {
+    padding-left: 40px;
+    padding-top: 380px;
+    margin-right: 500px;
+}
+
+/* Посмотреть услуги */
+
+a {
+    display: block;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    background-color: #AD1818;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+/* ContainerTeam - H+IMG+P */
+.containerTeam {
+    width: 1150px;
+    height: 650px;
+}
