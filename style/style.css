@@ -1,6 +1,7 @@
 body {
-font-family: Manrope;
-margin-left: 128px;
+font-family:  'Manrope', sans-serif ;
+background: #f5f5f5;
+width: 100%;
 }
 
 h1 {
@@ -10,12 +11,33 @@ h1 {
     font-style: normal;
     color: #121212;
     letter-spacing: -0.03em;
-    padding-top: 130px;
     padding-bottom: 30px;
 }
 
+/* ContainerTeam - H+IMG+P */
+.containerTeam {
+    margin: 0 auto;
+    width: 1400px;
+    height: 650px;
+    box-sizing: border-box;
+    padding: 125px;
+}
+
+/* 1 картинка */ 
+.firstBlok {
+    width: 1150px;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../resources/1picture.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /*Мы команда*/
-p {
+.firstBlokText {
+    padding-left: 40px;
+    padding-top: 380px;
+    margin-right: 500px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
@@ -25,42 +47,26 @@ p {
 
 /* О НАС */
 h4 {
+    margin-top: 150px;
     font-weight: 400px;
     font-size: 20px;
     line-height: 25px;
-    padding-bottom: 45px;
 }
 
 /* Студия основана в 2011 году */
 
-.aboutUs {
+p.aboutUs {
     width: 1048px;
-    height: 385px;
-    margin-right: 120px;
-    margin-top: 274px;
+    height: 366px;
+    margin-top: 30px;
     font-style: normal;
     font-weight: 400px;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 61px;
     letter-spacing: -0.03em;
     color: #121212;
 }
 
-
-/* 1 картинка */ 
-.firstBlok {
-    width: 1150px;
-    height: 500px;
-    background-image: url(../resources/1picture.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-.firstBlokText {
-    padding-left: 40px;
-    padding-top: 380px;
-    margin-right: 500px;
-}
 
 /* Посмотреть услуги */
 
@@ -75,9 +81,5 @@ a {
     color: white;
     border-radius: 5px;
     padding: 20px 40px;
-}
-/* ContainerTeam - H+IMG+P */
-.containerTeam {
-    width: 1150px;
-    height: 650px;
+    margin-top: 30px;
 }
