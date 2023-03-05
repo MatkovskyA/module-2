@@ -16,11 +16,9 @@ h1 {
 
 /* ContainerTeam - H+IMG+P */
 .containerTeam {
-    margin: 0 auto;
     width: 1400px;
-    height: 650px;
     box-sizing: border-box;
-    padding: 125px;
+    padding: 125px 125px 176px 125px;
 }
 
 /* 1 картинка */ 
@@ -65,15 +63,16 @@ p.aboutUs {
     line-height: 61px;
     letter-spacing: -0.03em;
     color: #121212;
+    
 }
 
 
 /* Посмотреть услуги */
 
-a {
+.aboutUs__link {
     display: block;
-    width: 250px;
-    height: 20px;
+    width: 255px;
+    height: 30px;
     text-align: center;
     background-color: #AD1818;
     line-height: 20px;
@@ -82,4 +81,108 @@ a {
     border-radius: 5px;
     padding: 20px 40px;
     margin-top: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.projects {
+    margin-right: 1196px;
+    margin-bottom: 30px;
+    margin-left: 125px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.containerProjects {
+    width: 1150px;
+    height: 2122px;
+    margin-left: 125px;
+    margin-bottom: 90px;
+}
+/* ЖК Правобережный */
+.firstBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.firstBlock {
+    width: 1150px;
+    height: 450px;
+    margin-right: 125px;
+    margin-bottom: 15px;
+}
+
+.firstBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.firstBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+/* ЖК Норвежский Парк */
+
+.secondBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.secondBlock {
+    width: 1150px;
+    height: 450px;
+    margin-right: 125px;
+    margin-bottom: 15px;
+}
+
+.secondBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.secondBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+
+/* ЖК Сосновские Озера */
+
+.thirdBlock__text-wrapper {
+    margin-bottom: 90px;
+}
+.thirdBlock {
+    width: 1150px;
+    height: 450px;
+    margin-right: 125px;
+    margin-bottom: 15px;
+}
+
+.thirdBlock__title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.thirdBlock__link {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    text-decoration: none;
+    margin-bottom: 90px;
 }
