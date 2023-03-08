@@ -1,10 +1,16 @@
 body {
-font-family:  'Manrope', sans-serif ;
-background: #f5f5f5;
-width: 100%;
+    height: 100%;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    color: #121212;
+    scroll-behavior: smooth;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 
 h1 {
+    max-width: 956px;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
@@ -16,9 +22,12 @@ h1 {
 
 /* ContainerTeam - H+IMG+P */
 .containerTeam {
-    width: 1400px;
-    box-sizing: border-box;
-    padding: 125px 125px 176px 125px;
+    max-width: 1150px;
+    margin-left: 125px;
+    margin-right: 125px;
+    box-sizing: content-box;
+    padding: 0px 30px;
+    
 }
 
 /* 1 картинка */ 
@@ -35,16 +44,17 @@ h1 {
 .firstBlokText {
     padding-left: 40px;
     padding-top: 380px;
-    margin-right: 500px;
+    margin-right: 200px;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
     color: white;
+    position: absolute;
 }
 
 /* О НАС */
-h4 {
+h2 {
     margin-top: 150px;
     font-weight: 400px;
     font-size: 20px;
@@ -81,26 +91,28 @@ p.aboutUs {
     border-radius: 5px;
     padding: 20px 40px;
     margin-top: 30px;
+    margin-bottom: 150px;
     align-items: center;
     font-size: 20px;
 }
 
 .projects {
-    margin-right: 1196px;
-    margin-bottom: 30px;
-    margin-left: 125px;
-    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 
 }
 
-.containerProjects {
-    width: 1150px;
-    height: 2122px;
+.containerProjectsFull {
+    max-width: 1150px;
+    padding: 0px 30px;
     margin-left: 125px;
-    margin-bottom: 90px;
+    margin-right: 125px;
+    box-sizing: content-box;
 }
+
 /* ЖК Правобережный */
 .firstBlock__text-wrapper {
     margin-bottom: 90px;
@@ -108,8 +120,8 @@ p.aboutUs {
 .firstBlock {
     width: 1150px;
     height: 450px;
-    margin-right: 125px;
     margin-bottom: 15px;
+    margin-right: 0px 125px
 }
 
 .firstBlock__title {
@@ -185,4 +197,26 @@ p.aboutUs {
     color: #AD1818;
     text-decoration: none;
     margin-bottom: 90px;
+}
+
+/* Смотреть все проекты */
+.seeAllProjects {
+    display: block;
+    position: absolute;
+    width: 1150px;
+    height: 153px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    background-color: white;
+    color: #AD1818;
+    text-decoration: none;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+}
+
+.seeAllProjects:hover {
+    color: white;
+    background-color: #AD1818;
 }
