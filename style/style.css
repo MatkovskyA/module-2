@@ -1,12 +1,11 @@
 body {
-    height: 100%;
     font-family: "Manrope";
     font-size: 14px;
     font-weight: 400;
     color: #121212;
     scroll-behavior: smooth;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 175px;
+    margin-right: 175px;
 }
 
 h1 {
@@ -22,17 +21,14 @@ h1 {
 
 /* ContainerTeam - H+IMG+P */
 .containerTeam {
-    max-width: 1150px;
-    margin-left: 125px;
-    margin-right: 125px;
+    max-width: 1250px;
     box-sizing: content-box;
-    padding: 0px 30px;
     
 }
 
 /* 1 картинка */ 
 .firstBlok {
-    width: 1150px;
+    width: 1250px;
     height: 500px;
     margin-top: 30px;
     background-image: url(../resources/1picture.png);
@@ -107,9 +103,6 @@ p.aboutUs {
 
 .containerProjectsFull {
     max-width: 1150px;
-    padding: 0px 30px;
-    margin-left: 125px;
-    margin-right: 125px;
     box-sizing: content-box;
 }
 
@@ -149,7 +142,6 @@ p.aboutUs {
 .secondBlock {
     width: 1150px;
     height: 450px;
-    margin-right: 125px;
     margin-bottom: 15px;
 }
 
@@ -178,7 +170,6 @@ p.aboutUs {
 .thirdBlock {
     width: 1150px;
     height: 450px;
-    margin-right: 125px;
     margin-bottom: 15px;
 }
 
