@@ -2,10 +2,8 @@ body {
     font-family: "Manrope";
     font-size: 14px;
     font-weight: 400;
-    color: #121212;
     scroll-behavior: smooth;
-    margin-left: 175px;
-    margin-right: 175px;
+
 }
 
 h1 {
@@ -21,14 +19,14 @@ h1 {
 
 /* ContainerTeam - H+IMG+P */
 .containerTeam {
-    max-width: 1250px;
+    max-width: 1150px;
+    margin: 0px auto;
     box-sizing: content-box;
-    
 }
 
 /* 1 картинка */ 
 .firstBlok {
-    width: 1250px;
+    width: 1150px;
     height: 500px;
     margin-top: 30px;
     background-image: url(../resources/1picture.png);
@@ -50,7 +48,7 @@ h1 {
 }
 
 /* О НАС */
-h2 {
+.aboutUsUs {
     margin-top: 150px;
     font-weight: 400px;
     font-size: 20px;
@@ -69,6 +67,7 @@ p.aboutUs {
     line-height: 61px;
     letter-spacing: -0.03em;
     color: #121212;
+    margin-right: 175px;
     
 }
 
@@ -104,6 +103,7 @@ p.aboutUs {
 .containerProjectsFull {
     max-width: 1150px;
     box-sizing: content-box;
+    margin: 0px auto;
 }
 
 /* ЖК Правобережный */
@@ -190,24 +190,63 @@ p.aboutUs {
     margin-bottom: 90px;
 }
 
-/* Смотреть все проекты */
 .seeAllProjects {
-    display: block;
-    position: absolute;
-    width: 1150px;
-    height: 153px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 153px;
-    text-align: center;
-    background-color: white;
-    color: #AD1818;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
     border: 1px solid #AD1818;
     border-radius: 5px;
+    text-align: center;
+    line-height: 41px;
+    width: 1150px;
+    height: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #AD1818;
+    margin-bottom: 150px;
+}
+
+.btn {
+    align-items: center;
 }
 
 .seeAllProjects:hover {
     color: white;
     background-color: #AD1818;
 }
+
+/* Услуги  */
+
+.services__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 151px;
+    padding-bottom: 34px;
+}
+
+.section__services {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding-bottom: 150px;
+}
+
+.services__container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.firstServiceImg {
+    margin-bottom: 15px;
+}
+
+.serviceBlock {
+    margin-bottom: 60px;
+}
+
+.firstService {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
