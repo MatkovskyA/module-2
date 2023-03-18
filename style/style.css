@@ -307,6 +307,7 @@ p.aboutUs {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 186px;
 }
 
 .forestScenery {
@@ -327,4 +328,113 @@ p.aboutUs {
     line-height: 41px;
     letter-spacing: -0.03em;
     color: white;
+}
+
+/* Contacts */
+
+.contacts__wrapper {
+    max-width: 1150px;
+    margin: 0px auto 150px;
+    box-sizing: content-box;
+}
+
+.contacts__wrapper::before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px; 
+    margin-bottom: 12px;
+    margin-left: -5px;
+    background-image: url(/resources/ic_outline-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.contacts__text {
+    width: 90px;
+    size: 18px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+
+
+.telephone__number {
+    width: 472px;
+    margin-bottom: 30px;
+    letter-spacing: -0.03em;
+}
+
+.number {
+    text-decoration: none;
+    color: #121212;
+}
+
+.mail {
+    width: 412px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #121212;
+    opacity: 0.5;
+    border-bottom: 1.2px solid;
+    text-transform: lowercase;
+}
+
+.footer {
+    background-color: #121212;
+    color: white;
+    min-width: 1400px;
+    height: 229px;
+    margin: 0 auto;
+}
+
+.footer__box {
+    width: 450px;
+    height: 25px;
+    padding-top: 60px;
+    padding-bottom: 87px;
+    margin: 0 auto;
+}
+
+.footer__nav {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer__nav:active {
+    padding-bottom: 2px;
+    border-bottom: 1.2px solid;
+    text-transform: capitalize;
+}
+
+.footer__nav:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer__nav:nth-last-child(4) {
+    opacity: 0.5;
+}
+
+.footer__text {
+    width: 389px;
+    height: 27px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    opacity: 0.5;
+    margin: 0 auto 30px;
 }
