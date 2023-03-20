@@ -17,7 +17,6 @@ html {
     box-sizing: border-box;
     align-items: center;
     margin: 32px auto 70px;
-    justify-content: space-between;
 }
 
 .logo_link {
@@ -29,10 +28,10 @@ html {
 }
 
 .nav_link {
-    margin-right: 50px;
+    margin-right: 55px;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     color: #121212;
     text-decoration: none;
     text-align: center;
@@ -167,11 +166,13 @@ p.aboutUs {
 }
 
 .firstBlock__title {
+    width: 505px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     color: #121212;
     margin-bottom: 15px;
+    letter-spacing: -0.03em;
 }
 
 .firstBlock__link {
@@ -186,7 +187,7 @@ p.aboutUs {
 /* ЖК Норвежский Парк */
 
 .secondBlock__text-wrapper {
-    margin-bottom: 90px;
+    margin-bottom: 87px;
 }
 .secondBlock {
     width: 1150px;
@@ -200,6 +201,8 @@ p.aboutUs {
     line-height: 41px;
     color: #121212;
     margin-bottom: 15px;
+    letter-spacing: -0.03em;
+
 }
 
 .secondBlock__link {
@@ -208,7 +211,6 @@ p.aboutUs {
     letter-spacing: -0.03em;
     color: #AD1818;
     text-decoration: none;
-    margin-bottom: 90px;
 }
 
 /* ЖК Сосновские Озера */
@@ -228,6 +230,7 @@ p.aboutUs {
     line-height: 41px;
     color: #121212;
     margin-bottom: 15px;
+    letter-spacing: -0.03em;
 }
 
 .thirdBlock__link {
@@ -252,6 +255,7 @@ p.aboutUs {
     text-decoration: none;
     color: #AD1818;
     margin-bottom: 150px;
+    letter-spacing: -0.03em;
 }
 
 .btn {
@@ -281,7 +285,7 @@ p.aboutUs {
 }
 
 .services__container {
-    max-width: 1180px;
+    max-width: 1145px;
     margin: 0 auto;
 }
 
@@ -290,7 +294,7 @@ p.aboutUs {
 }
 
 .serviceBlock {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
 }
 
 .firstService {
@@ -307,7 +311,7 @@ p.aboutUs {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 186px;
+    margin-bottom: 150px;
 }
 
 .forestScenery {
@@ -334,7 +338,7 @@ p.aboutUs {
 
 .contacts__wrapper {
     max-width: 1150px;
-    margin: 0px auto 150px;
+    margin: 0px auto 160px;
     box-sizing: content-box;
 }
 
@@ -364,9 +368,9 @@ p.aboutUs {
 
 
 .telephone__number {
-    width: 472px;
+    width: 480px;
     margin-bottom: 30px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
 }
 
 .number {
