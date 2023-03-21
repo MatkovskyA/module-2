@@ -269,6 +269,10 @@ p.aboutUs {
 
 /* Услуги  */
 
+.services__item {
+    margin-bottom: 58px;
+}
+
 .services__title {
     font-weight: 400;
     font-size: 18px;
@@ -281,7 +285,7 @@ p.aboutUs {
     
     background-color: #121212;
     color: #FFFFFF;
-    padding-bottom: 150px;
+    padding-bottom: 92px;
 }
 
 .services__container {
