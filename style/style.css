@@ -423,10 +423,10 @@ p.aboutUs {
     color: #ffffff;
 }
 
-.footer__nav:active {
+.footer__nav:hover {
     padding-bottom: 2px;
     border-bottom: 1.2px solid;
-    text-transform: capitalize;
+    opacity: 0.5;
 }
 
 .footer__nav:nth-last-child(1) {
