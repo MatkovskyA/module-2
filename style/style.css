@@ -349,7 +349,7 @@ p.aboutUs {
     height: 24px; 
     margin-bottom: 12px;
     margin-left: -5px;
-    background-image: url(/resources/ic_outline-phone.png);
+    background-image: url(../resources/ic_outline-phone.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -427,10 +427,6 @@ p.aboutUs {
 
 .footer__nav:nth-last-child(1) {
     margin-right: 0;
-}
-
-.footer__nav:nth-last-child(4) {
-    opacity: 0.5;
 }
 
 .footer__text {
