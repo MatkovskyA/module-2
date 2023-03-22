@@ -66,7 +66,7 @@ h1 {
 }
 
 /* ContainerTeam - H+IMG+P */
-.containerTeam {
+.firstWrapper, header {
     max-width: 1150px;
     margin: 0px auto;
     box-sizing: content-box;
