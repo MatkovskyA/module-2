@@ -1,18 +1,25 @@
-body {
-    font-family: "Manrope";
-    font-size: 14px;
-    font-weight: 400;
-    scroll-behavior: smooth;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
-/* Шапка - навигация */
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
 
-.nav_section {
-    min-width: 1150px;
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 125px;
+    background-color: #ffffff;
+    padding-bottom: 150px;
+}
+/* Шапка - навигация */
+/*
+.header {
+    max-width: 1150px;
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -52,12 +59,11 @@ html {
     width: 126px;
     height: 21px;
 }
-
+*/
 /* Тело */
 
 h1 {
     max-width: 956px;
-    font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     font-style: normal;
@@ -65,30 +71,24 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-/* ContainerTeam - H+IMG+P */
-.firstWrapper, header {
-    max-width: 1150px;
-    margin: 0px auto;
-    box-sizing: content-box;
-}
 
 /* 1 картинка */ 
-.firstBlok {
+.firstBlokUs {
     position: relative;
-    width: 1150px;
     height: 500px;
     margin-top: 30px;
     background-image: url(../resources/1picture.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 /*Мы команда*/
-.firstBlokText {
+.firstBlokUs p {
     position: absolute;
+    max-width: 430px;
     left: 40px;
     bottom: 40px;
-    font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
@@ -96,7 +96,7 @@ h1 {
 }
 
 /* О НАС */
-.aboutUsUs {
+h2 {
     margin-top: 150px;
     font-weight: 400px;
     font-size: 18px;
@@ -106,22 +106,17 @@ h1 {
 
 /* Студия основана в 2011 году */
 
-p.aboutUs {
-    width: 1048px;
-    height: 366px;
+.about__company p{
+    max-width: 1048px;
     margin-top: 30px;
-    font-style: normal;
-    font-weight: 400px;
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
     color: #121212;
-    margin-right: 175px;
-    
 }
 
 
-/* Посмотреть услуги */
+/* Кнопка Посмотреть услуги */
 
 .aboutUs__link {
     display: inline-block;
@@ -136,7 +131,6 @@ p.aboutUs {
     color: #ffffff;
     background-color: #ad1818;
     margin-top: 30px;
-    margin-bottom: 150px;
 }
 
 .projects {
@@ -145,28 +139,19 @@ p.aboutUs {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     margin-bottom: 30px;
-
 }
 
-.containerProjectsFull {
-    max-width: 1150px;
-    box-sizing: content-box;
-    margin: 0px auto;
-}
-
-/* ЖК Правобережный */
-.firstBlock__text-wrapper {
+/* ЖК Правобережный, Норвежский Парк, ЖК Сосновские Озера */
+.Block__text-wrapper {
     margin-bottom: 90px;
 }
-.firstBlock {
-    width: 1150px;
+.Block__img {
+    width: 100%;
     height: 450px;
     margin-bottom: 15px;
-    margin-right: 0px 125px
 }
 
-.firstBlock__title {
-    width: 505px;
+.Block__title {
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
@@ -175,7 +160,7 @@ p.aboutUs {
     letter-spacing: -0.03em;
 }
 
-.firstBlock__link {
+.Block__link {
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
@@ -184,63 +169,6 @@ p.aboutUs {
     margin-bottom: 90px;
 }
 
-/* ЖК Норвежский Парк */
-
-.secondBlock__text-wrapper {
-    margin-bottom: 87px;
-}
-.secondBlock {
-    width: 1150px;
-    height: 450px;
-    margin-bottom: 15px;
-}
-
-.secondBlock__title {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    color: #121212;
-    margin-bottom: 15px;
-    letter-spacing: -0.03em;
-
-}
-
-.secondBlock__link {
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
-    text-decoration: none;
-}
-
-/* ЖК Сосновские Озера */
-
-.thirdBlock__text-wrapper {
-    margin-bottom: 90px;
-}
-.thirdBlock {
-    width: 1150px;
-    height: 450px;
-    margin-bottom: 15px;
-}
-
-.thirdBlock__title {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    color: #121212;
-    margin-bottom: 15px;
-    letter-spacing: -0.03em;
-}
-
-.thirdBlock__link {
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #AD1818;
-    text-decoration: none;
-    margin-bottom: 90px;
-}
 
 .seeAllProjects {
     display: flex;
@@ -249,12 +177,10 @@ p.aboutUs {
     border-radius: 5px;
     text-align: center;
     line-height: 41px;
-    width: 1150px;
     height: 150px;
     font-size: 30px;
     text-decoration: none;
     color: #AD1818;
-    margin-bottom: 150px;
     letter-spacing: -0.03em;
 }
 
@@ -341,7 +267,7 @@ p.aboutUs {
 /* Contacts */
 
 .contacts__wrapper {
-    max-width: 1150px;
+    width: 1150px;
     margin: 0px auto 160px;
     box-sizing: content-box;
 }
@@ -441,4 +367,122 @@ p.aboutUs {
     letter-spacing: -0.03em;
     opacity: 0.5;
     margin: 0 auto 30px;
+}
+
+
+/* Аддаптив для 1199px */
+@media (max-width: 1199px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 74px 15px 103px 15px;
+    }
+    h1 {
+        max-width: 802px;
+        font-size: 50px;
+    }
+    .firstBlokUs {
+        background-image: url(../resources/1picture.png);
+        height: 400px;
+    }
+    .firstBlokUs p {
+        bottom: 30px;
+    }
+    h2 {
+        margin-top: 120px;
+
+    }
+    .about__company p {
+        max-width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .aboutUs__link {
+        font-size: 20px;
+        line-height: 62px;
+    }
+    .Block__img {
+        height: 450px;
+    }
+    .Block__text-wrapper {
+        margin-bottom: 80px;
+    }
+    .Block__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .Block__text-wrapper:nth-last-child(2) {
+        margin-bottom: 102px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 61px 14px 74px 13px;
+    }
+    h1 {
+        max-width: 337px;
+        font-size: 30px;
+        line-height: 32px;
+      }
+    .firstBlokUs {
+        background-image: url(../resources/1picture.png);
+        margin-top: 25px;
+        height: 304px;
+    }
+    .firstBlokUs p {
+        max-width: 312px;
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    h2 {
+        margin-top: 80px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .about__company p {
+        margin-top: 20px;
+        max-width: 346px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .aboutUs__link {
+        max-width: 194px;
+        height: 51px;
+        font-size: 16px;
+        line-height: 47px;
+    }
+    h2.projects {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .Block__img {
+        height: 250px;
+    }
+    .Block__text-wrapper {
+        margin-bottom: 49px;
+    }
+    .Block__img {
+        margin-bottom: 20px;
+    }
+    .Block__title {
+        font-size: 18px;
+        line-height: 25px;   
+        margin-bottom: 11px; 
+    }
+    .Block__link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .Block__text-wrapper:nth-last-child(2) {
+        margin-bottom: 60px;
+    }
+    .seeAllProjects {
+        font-size: 22px;
+        line-height: 30px;
+        height: 100px;
+    }
 }
