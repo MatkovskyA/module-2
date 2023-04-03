@@ -118,20 +118,27 @@ h2 {
 
 /* Кнопка Посмотреть услуги */
 
-.aboutUs__link {
+.btn {
     display: inline-block;
-    width: 255px;
-    height: 67px;
-    font-size: 20px;
-    letter-spacing: -0.03em;
-    line-height: 67px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    color: #ffffff;
+    box-sizing: border-box;
     background-color: #ad1818;
+    color: #ffffff;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+  }
+
+.aboutUs__link {
     margin-top: 30px;
-}
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  
+.aboutUs__link:hover {
+    opacity: 0.9;
+  }
 
 .projects {
     font-size: 18px;
@@ -169,29 +176,22 @@ h2 {
     margin-bottom: 90px;
 }
 
-
 .seeAllProjects {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #AD1818;
-    border-radius: 5px;
+    width: 100%;
     text-align: center;
-    line-height: 41px;
-    height: 150px;
+    padding: 56px 0;
     font-size: 30px;
-    text-decoration: none;
-    color: #AD1818;
-    letter-spacing: -0.03em;
-}
-
-.btn {
-    align-items: center;
-}
-
-.seeAllProjects:hover {
-    color: white;
-    background-color: #AD1818;
-}
+    line-height: 41px;
+    color: #ad1818;
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .seeAllProjects:hover {
+    color: #ffffff;
+    background-color: #ad1818;
+    transition: 0.3s;
+  }
 
 /* Услуги  */
 
@@ -375,14 +375,14 @@ h2 {
     .container {
         box-sizing: border-box;
         width: 100%;
-        padding: 74px 15px 103px 15px;
+        padding: 128px 15px 103px 16px;
     }
     h1 {
         max-width: 802px;
         font-size: 50px;
     }
     .firstBlokUs {
-        background-image: url(../resources/1picture.png);
+        background-image: url(../resources/1picture-table.png);
         height: 400px;
     }
     .firstBlokUs p {
@@ -399,17 +399,18 @@ h2 {
     }
     .aboutUs__link {
         font-size: 20px;
-        line-height: 62px;
+        line-height: 27px;
     }
     .Block__img {
         height: 450px;
     }
     .Block__text-wrapper {
-        margin-bottom: 80px;
+        margin-bottom: 77px;
     }
     .Block__title {
         font-size: 25px;
         line-height: 34px;
+        margin-bottom: 10px;
     }
     .Block__text-wrapper:nth-last-child(2) {
         margin-bottom: 102px;
@@ -418,16 +419,16 @@ h2 {
 
 @media (max-width: 767px) {
     .container {
-        padding: 61px 14px 74px 13px;
+        padding: 108px 12.5px 74px 12.5px;
     }
     h1 {
-        max-width: 337px;
+        max-width: 348px;
         font-size: 30px;
         line-height: 32px;
       }
     .firstBlokUs {
-        background-image: url(../resources/1picture.png);
-        margin-top: 25px;
+        background-image: url(../resources/1picture-phone.png);
+        margin-top: 24px;
         height: 304px;
     }
     .firstBlokUs p {
@@ -447,12 +448,13 @@ h2 {
         max-width: 346px;
         font-size: 22px;
         line-height: 30px;
+        letter-spacing: -0.03em;
     }
     .aboutUs__link {
-        max-width: 194px;
-        height: 51px;
+        padding: 14.5px 27px;
         font-size: 16px;
-        line-height: 47px;
+        text-align: center;
+        line-height: 20px;
     }
     h2.projects {
         margin-bottom: 20px;
@@ -466,7 +468,7 @@ h2 {
         margin-bottom: 49px;
     }
     .Block__img {
-        margin-bottom: 20px;
+        margin-bottom: 19px;
     }
     .Block__title {
         font-size: 18px;
@@ -476,6 +478,7 @@ h2 {
     .Block__link {
         font-size: 16px;
         line-height: 22px;
+
     }
     .Block__text-wrapper:nth-last-child(2) {
         margin-bottom: 60px;
@@ -483,6 +486,8 @@ h2 {
     .seeAllProjects {
         font-size: 22px;
         line-height: 30px;
-        height: 100px;
+        padding: 35px 0;
+        text-align: center;
+        letter-spacing: -0.03em;
     }
 }
