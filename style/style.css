@@ -21,7 +21,7 @@ body {
 h1, .firstBlokUs p, h2.about__Us, .about__company p, 
 .btn, h2.reviews__block, .reviews__title, .reviews p,
 .forestSceneryText, .Block__title, .Block__link, .review__title,
-.review__text {
+.review__text, .btn__aboutUs__link, .btn__seeAllProjects {
     letter-spacing: -0.03em;
 }
 

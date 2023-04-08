@@ -30,7 +30,7 @@ h2.services__title {
 }
 
 .firstServiceImg {
-    margin-bottom: 15px;
+    margin-bottom: 19px;
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ h3.firstService {
     text-decoration: none;
     text-align: center;
     margin-top: 106px;
-    margin-bottom: 150px;
+    margin-bottom: 146px;
     width: 100%;
     font-size: 30px;
     line-height: 41px;
@@ -83,7 +83,7 @@ h3.firstService {
         padding-bottom: 30px;
     }
     .service__iner {
-        row-gap: 80px;
+        row-gap: 82px;
     }
     .services__item {
         width: calc(50% - 5px);
@@ -95,7 +95,7 @@ h3.firstService {
         line-height: 27px; 
     }
     .services__btn {
-        margin-top: 80px;
+        margin-top: 83px;
         margin-bottom: 120px;
     }
     h3.firstService {
@@ -107,16 +107,14 @@ h3.firstService {
 @media (max-width: 767px) {
 
     /* Адаптив под секцию УСЛУГИ Моб*/
-    .containerProjectsFull {
-        padding-bottom: 144px;
-    }
+
     .services__container {
-        padding-left: 12px;
+        padding-left: 13px;
         padding-right: 12px;
     }
     h2.services__title {
         padding-top: 80px;
-        padding-bottom: 20px;
+        padding-bottom: 19px;
         font-size: 14px;
         line-height: 19px;
     }
@@ -124,7 +122,10 @@ h3.firstService {
         width: 100%;
     }
     .service__iner {
-        row-gap: 60px;
+        row-gap: 65px;
+    }
+    .firstServiceImg {
+        margin-bottom: 9px;
     }
     h3.firstService {
         width: 100%;
@@ -132,16 +133,17 @@ h3.firstService {
         line-height: 25px;
     }
     .service__price {
-        left: 24px;
-        top: 23px;
+        left: 25px;
+        top: 24px;
         font-size: 14px;
         line-height: 19px; 
+        padding: 5px 24px 6px 24px;
     }
     .services__btn {
         font-size: 22px;
         line-height: 29px;
-        padding: 37px 0px 36px 0px;
-        margin-top: 60px;
+        padding: 40px 0px 36px 0px;
+        margin-top: 66px;
         margin-bottom: 80px;
     }
 }

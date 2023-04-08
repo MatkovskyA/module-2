@@ -6,11 +6,16 @@
     padding: 150px 0px 157px 0px;
 }
 
+h2.reviews {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
 .reviews__inner {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 50px;
+    gap: 80px 50px;
 }
 
 .review {
@@ -51,6 +56,7 @@
     .review__title {
         font-size: 35px;
         line-height: 48px;
+        padding-bottom: 25px;
     }
 
     .review__text {
@@ -61,11 +67,11 @@
 
 @media (max-width: 767px) {
     .all__reviews {
-        padding: 80px 13px;
+        padding: 76px 13px;
     }
     .reviews__inner {
         flex-direction: column;
-        gap: 80px;
+        gap: 75px;
     }
     .review__title {
         font-size: 25px;
