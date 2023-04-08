@@ -24,16 +24,3 @@ h1, .firstBlokUs p, h2.about__Us, .about__company p,
 .review__text, .btn__aboutUs__link, .btn__seeAllProjects {
     letter-spacing: -0.03em;
 }
-
-/* Отзывы */
-
-
-
-/* Аддаптив для 1199px */
-@media (max-width: 1199px) {
-
-    /* Аддаптив под секцию ОТЗЫВЫ*/
-
-}
-
-@media (max-width: 767px) {}
