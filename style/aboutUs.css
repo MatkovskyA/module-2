@@ -1,0 +1,155 @@
+
+
+.container__about__us {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-bottom: 150px;
+}
+
+/* Тело */
+
+h1 {
+    max-width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+    font-style: normal;
+    color: #121212;
+}
+
+/* 1 картинка */ 
+.firstBlokUs {
+    position: relative;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../resources/1picture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/*Мы команда*/
+.firstBlokUs p {
+    position: absolute;
+    max-width: 430px;
+    left: 40px;
+    bottom: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+
+/* О НАС */
+h2.about__Us {
+    margin-top: 150px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Студия основана в 2011 году */
+
+.about__company p{
+    max-width: 1048px;
+    font-weight: 400px;
+    margin-top: 30px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+}
+
+/* Кнопка Посмотреть услуги */
+
+.btn__aboutUs__link {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #ad1818;
+    color: #ffffff;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+.btn__aboutUs__link {
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  
+.btn__aboutUs__link:hover {
+    opacity: 0.9;
+  }
+
+/* Аддаптив под Планшет */
+  @media (max-width: 1199px) {
+    .container__about__us {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 128px 15px 103px 16px;
+    }
+    h1 {
+        max-width: 802px;
+        font-size: 50px;
+    }
+    .firstBlokUs {
+        background-image: url(../resources/1picture-table.png);
+        height: 400px;
+    }
+    .firstBlokUs p {
+        bottom: 30px;
+    }
+    h2.about__Us {
+        margin-top: 120px;
+    }
+    .about__company p {
+        max-width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .btn__aboutUs__link {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+/* Аддаптив под Мобильный */
+    @media (max-width: 767px) {
+        .container__about__us {
+            padding: 108px 12.5px 0px 12.5px;
+        }
+        h1 {
+            max-width: 348px;
+            font-size: 30px;
+            line-height: 32px;
+          }
+        .firstBlokUs {
+            background-image: url(../resources/1picture-phone.png);
+            margin-top: 24px;
+            height: 304px;
+        }
+        .firstBlokUs p {
+            max-width: 312px;
+            left: 15px;
+            bottom: 15px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        h2.about__Us {
+            margin-top: 80px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .about__company p {
+            margin-top: 20px;
+            max-width: 346px;
+            font-size: 22px;
+            line-height: 30px;
+            letter-spacing: -0.03em;
+        }
+        .btn__aboutUs__link {
+            padding: 14.5px 27px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 20px;
+        }
+    }

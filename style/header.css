@@ -1,0 +1,44 @@
+/* Шапка - навигация */
+/*
+.header {
+    max-width: 1150px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 32px auto 70px;
+}
+
+.logo_link {
+    margin-right: 558px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav_link {
+    margin-right: 55px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #121212;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_link:active {
+    opacity: 0.5;
+    padding-bottom: 2px;
+    border-bottom: 1.2px solid;
+    text-transform: capitalize;
+}
+
+.nav_link:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.logo {
+    width: 126px;
+    height: 21px;
+}
+*/
