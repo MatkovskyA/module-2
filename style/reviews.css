@@ -1,28 +1,24 @@
 /* Отзывы */
 
 .all__reviews {
-    max-width: 1150px;
-    margin: 0 auto;
     padding: 150px 0px 157px 0px;
 }
 
 h2.reviews {
-    font-size: 18px;
-    line-height: 25px;
     margin-bottom: 30px;
 }
 .reviews__inner {
-    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    gap: 80px 50px;
+    column-gap: 50px;
+    row-gap: 80px;
 }
 
 .review {
     width: calc(50% - 25px);
 }
 
-.review__third {
+.review:last-child:nth-child(2n + 1) {
     width: 74.9%;
 }
 
@@ -30,6 +26,7 @@ h2.reviews {
     font-size: 45px;
     line-height: 61px;
     padding-bottom: 14px;
+    letter-spacing: -0.03em;
 }
 
 .review__text {
@@ -40,14 +37,19 @@ h2.reviews {
 @media (max-width: 1199px) {
     
     .all__reviews {
-        padding: 117px 15px 120px 16px;
+        flex-direction: row;
+        padding: 117px 15px 120px;
+    }
+    h2.reviews {
+        font-size: 18px;
+        line-height: 25px;
     }
     .review {
         width: calc(50% - 5px);
     }
     .reviews__inner {
-        margin-top: 22px;
-        gap: 80px 10px;
+        row-gap: 80px;
+        column-gap: 10px;
     }
     .review__third {
         width: 74.9%;
@@ -67,11 +69,16 @@ h2.reviews {
 
 @media (max-width: 767px) {
     .all__reviews {
-        padding: 76px 13px;
+        padding: 80px 13px;
+    }
+    h2.reviews {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 22px;
     }
     .reviews__inner {
         flex-direction: column;
-        gap: 75px;
+        row-gap: 75px;
     }
     .review__title {
         font-size: 25px;
@@ -85,5 +92,9 @@ h2.reviews {
     .review {
         width: 100%;
     }
+    .review:last-child:nth-child(2n + 1) {
+        width: 100%;
+    }
+
 
 }

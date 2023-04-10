@@ -4,17 +4,16 @@
     background-size: cover;
 }
 
-.services__container {
+.services.container {
     color: #FFFFFF;
-    max-width: 1150px;
-    margin: 0 auto;
+    padding-bottom: 150px;
 }
 
-.service__iner {
+.service__inner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 85px;
+    row-gap: 76px;
 }
 
 .services__item {
@@ -23,20 +22,18 @@
 }
 
 h2.services__title {
-    font-size: 18px;
-    line-height: 25px;
-    padding-top: 150px;
     padding-bottom: 30px;
 }
 
 .firstServiceImg {
-    margin-bottom: 19px;
+    margin-bottom: 24px;
     width: 100%;
 }
 
 h3.firstService {
     font-size: 30px;
     line-height: 41px;
+    padding-left: 3px;
     letter-spacing: -0.03em;
 }
 
@@ -60,30 +57,31 @@ h3.firstService {
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    margin-top: 106px;
-    margin-bottom: 146px;
     width: 100%;
     font-size: 30px;
     line-height: 41px;
     padding: 56px 0;
+    cursor: pointer;
+    margin-top: 102px;
 }
 
 /* Аддаптив для 1199px */
 @media (max-width: 1199px) {
 
     /* Аддаптив под секцию УСЛУГИ*/
-    .services__container {
-        box-sizing: border-box;
-        padding-left: 15px;
-        padding-right: 15px;
+    .services.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 118px;
     }
     h2.services__title {
-        padding-top: 150px;
         padding-left: 4px;
         padding-bottom: 30px;
     }
-    .service__iner {
-        row-gap: 82px;
+    .service__inner {
+        row-gap: 78px;
     }
     .services__item {
         width: calc(50% - 5px);
@@ -93,39 +91,46 @@ h3.firstService {
         left: 32px;
         font-size: 20px;
         line-height: 27px; 
+        padding: 7px 26px 6px 27px;
     }
-    .services__btn {
-        margin-top: 83px;
-        margin-bottom: 120px;
+    .firstServiceImg {
+        margin-bottom: 15px;
     }
+
     h3.firstService {
         width: 100%;
         font-size: 25px;
         line-height: 34px;
+        padding-left: 0px;
+    }
+    .services__btn {
+        font-size: 30px;
+        line-height: 41px;
+        padding: 57px 0px 55px;
+        margin-top: 78px;
     }
 }
 @media (max-width: 767px) {
 
     /* Адаптив под секцию УСЛУГИ Моб*/
 
-    .services__container {
-        padding-left: 13px;
-        padding-right: 12px;
+    .services.container {
+        padding: 80px 12px 80px 13px;
     }
     h2.services__title {
-        padding-top: 80px;
-        padding-bottom: 19px;
+        padding-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
     }
     .services__item {
         width: 100%;
     }
-    .service__iner {
-        row-gap: 65px;
+    .service__inner {
+        flex-direction: column;
+        row-gap: 57px;
     }
     .firstServiceImg {
-        margin-bottom: 9px;
+        margin-bottom: 10px;
     }
     h3.firstService {
         width: 100%;
@@ -134,16 +139,15 @@ h3.firstService {
     }
     .service__price {
         left: 25px;
-        top: 24px;
+        top: 23px;
         font-size: 14px;
         line-height: 19px; 
-        padding: 5px 24px 6px 24px;
+        padding: 5px 24px 5px 24px;
     }
     .services__btn {
         font-size: 22px;
-        line-height: 29px;
-        padding: 40px 0px 36px 0px;
-        margin-top: 66px;
-        margin-bottom: 80px;
+        line-height: 26px;
+        padding: 36px 0px;
+        margin-top: 60px;
     }
 }

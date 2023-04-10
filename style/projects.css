@@ -1,12 +1,10 @@
 /* Projects */
+.ProjectsFull {
+    padding-bottom: 149px;
+}
 
 h2.projects {
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
     margin-bottom: 30px;
-    margin-top: 148px;
 }
 
 /* ЖК Правобережный, Норвежский Парк, ЖК Сосновские Озера */
@@ -16,12 +14,12 @@ h2.projects {
 .Block__img {
     width: 100%;
     height: 450px;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 
 .Block__title {
     font-size: 30px;
-    line-height: 41px;
+    line-height: 40px;
     margin-bottom: 14px;
 }
 
@@ -39,7 +37,7 @@ h2.projects {
     text-align: center;
     padding: 56px 0;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 40px;
     border: 1px solid #ad1818;
     border-radius: 5px;
     text-decoration: none;
@@ -55,11 +53,16 @@ h2.projects {
 
   @media (max-width: 1199px) {
 
-    h2.projects {
-        margin-top: 120px;
+    .ProjectsFull.container {
+        padding: 119px 17px 100px 15px;
+    }
+    .h2.projects {
+        font-size: 18px;
+        line-height: 25px;
     }
     .Block__img {
         height: 450px;
+        margin-bottom: 15px;
     }
     .Block__text-wrapper {
         margin-bottom: 77px;
@@ -70,16 +73,15 @@ h2.projects {
         margin-bottom: 10px;
     }
     .Block__text-wrapper:nth-last-child(2) {
-        margin-bottom: 102px;
+        margin-bottom: 100px;
     }
 }
 
   @media (max-width: 767px) {
-    .containerProjectsFull {
-        padding-bottom: 143px;
+    .ProjectsFull.container {
+        padding: 80px 12px 80px 12px;
     }
     h2.projects {
-    margin-top: 80px;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
@@ -109,7 +111,7 @@ h2.projects {
     .btn__seeAllProjects {
         font-size: 22px;
         line-height: 30px;
-        padding: 35px 0;
+        padding: 34px 0;
         text-align: center;
         letter-spacing: -0.03em;
     }

@@ -1,14 +1,9 @@
 
-
-.container__about__us {
-    max-width: 1150px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding-bottom: 150px;
-}
-
 /* Тело */
 
+.about__us.container {
+    padding-top: 128px;
+}
 h1 {
     max-width: 956px;
     font-size: 60px;
@@ -41,7 +36,6 @@ h1 {
 
 /* О НАС */
 h2.about__Us {
-    margin-top: 150px;
     font-weight: 400px;
     font-size: 18px;
     line-height: 25px;
@@ -51,11 +45,11 @@ h2.about__Us {
 
 .about__company p{
     max-width: 1048px;
-    font-weight: 400px;
     margin-top: 30px;
     font-size: 45px;
     line-height: 61px;
     color: #121212;
+    padding-left: 3px;
 }
 
 /* Кнопка Посмотреть услуги */
@@ -74,7 +68,7 @@ h2.about__Us {
     margin-top: 30px;
     padding: 20px 40px;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 25px;
   }
   
 .btn__aboutUs__link:hover {
@@ -83,10 +77,10 @@ h2.about__Us {
 
 /* Аддаптив под Планшет */
   @media (max-width: 1199px) {
-    .container__about__us {
+    .about__us {
         box-sizing: border-box;
         width: 100%;
-        padding: 128px 15px 103px 16px;
+        padding: 128px 15px 0px 15px;
     }
     h1 {
         max-width: 802px;
@@ -99,13 +93,16 @@ h2.about__Us {
     .firstBlokUs p {
         bottom: 30px;
     }
-    h2.about__Us {
-        margin-top: 120px;
+    .about__company {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 120px 250px 0px 17px;
     }
     .about__company p {
         max-width: 690px;
         font-size: 35px;
         line-height: 48px;
+        padding-left: 3px;
     }
     .btn__aboutUs__link {
         font-size: 20px;
@@ -114,8 +111,8 @@ h2.about__Us {
 }
 /* Аддаптив под Мобильный */
     @media (max-width: 767px) {
-        .container__about__us {
-            padding: 108px 12.5px 0px 12.5px;
+        .about__us {
+            padding: 108px 12px 0px 13px;
         }
         h1 {
             max-width: 348px;
@@ -134,8 +131,10 @@ h2.about__Us {
             font-size: 16px;
             line-height: 22px;
         }
+        .about__company {
+            padding: 80px 17px 0px 12px;
+        }
         h2.about__Us {
-            margin-top: 80px;
             font-size: 14px;
             line-height: 19px;
         }
@@ -144,12 +143,13 @@ h2.about__Us {
             max-width: 346px;
             font-size: 22px;
             line-height: 30px;
+            padding-left: 0px;
             letter-spacing: -0.03em;
         }
         .btn__aboutUs__link {
-            padding: 14px 28px;
+            padding: 14.5px 27px;
             font-size: 16px;
             text-align: center;
-            line-height: 22px;
+            line-height: 21px;
         }
     }

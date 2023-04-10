@@ -16,6 +16,9 @@ body {
     font-family: "Manrope", sans-serif;
     box-sizing: border-box;
     font-weight: 400px;
+    font-style: normal;
+    letter-spacing: -0.03em;
+
 }
 
 h1, .firstBlokUs p, h2.about__Us, .about__company p, 
@@ -23,4 +26,15 @@ h1, .firstBlokUs p, h2.about__Us, .about__company p,
 .forestSceneryText, .Block__title, .Block__link, .review__title,
 .review__text, .btn__aboutUs__link, .btn__seeAllProjects {
     letter-spacing: -0.03em;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
 }
