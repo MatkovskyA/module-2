@@ -51,7 +51,7 @@ h2.reviews {
         row-gap: 80px;
         column-gap: 10px;
     }
-    .review__third {
+    .review__big {
         width: 74.9%;
     }
 
@@ -78,7 +78,7 @@ h2.reviews {
     }
     .reviews__inner {
         flex-direction: column;
-        row-gap: 75px;
+        row-gap: 76px;
     }
     .review__title {
         font-size: 25px;

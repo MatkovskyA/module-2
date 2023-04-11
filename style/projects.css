@@ -1,5 +1,5 @@
 /* Projects */
-.ProjectsFull {
+.projectsFull {
     padding-bottom: 149px;
 }
 
@@ -8,22 +8,22 @@ h2.projects {
 }
 
 /* ЖК Правобережный, Норвежский Парк, ЖК Сосновские Озера */
-.Block__text-wrapper {
+.block__text-wrapper {
     margin-bottom: 90px;
 }
-.Block__img {
+.block__img {
+    display: block;
     width: 100%;
-    height: 450px;
     margin-bottom: 15px;
 }
 
-.Block__title {
+.block__title {
     font-size: 30px;
     line-height: 40px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
-.Block__link {
+.block__link {
     font-size: 20px;
     line-height: 27px;
     color: #AD1818;
@@ -37,7 +37,7 @@ h2.projects {
     text-align: center;
     padding: 56px 0;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 39px;
     border: 1px solid #ad1818;
     border-radius: 5px;
     text-decoration: none;
@@ -53,32 +53,31 @@ h2.projects {
 
   @media (max-width: 1199px) {
 
-    .ProjectsFull.container {
+    .projectsFull.container {
         padding: 119px 17px 100px 15px;
     }
     .h2.projects {
         font-size: 18px;
         line-height: 25px;
     }
-    .Block__img {
-        height: 450px;
+    .block__img {
         margin-bottom: 15px;
     }
-    .Block__text-wrapper {
-        margin-bottom: 77px;
+    .block__text-wrapper {
+        margin-bottom: 80px;
     }
-    .Block__title {
+    .block__title {
         font-size: 25px;
         line-height: 34px;
         margin-bottom: 10px;
     }
-    .Block__text-wrapper:nth-last-child(2) {
+    .block__text-wrapper:nth-last-child(2) {
         margin-bottom: 100px;
     }
 }
 
   @media (max-width: 767px) {
-    .ProjectsFull.container {
+    .projectsFull.container {
         padding: 80px 12px 80px 12px;
     }
     h2.projects {
@@ -86,26 +85,24 @@ h2.projects {
     font-size: 14px;
     line-height: 19px;
     }
-    .Block__img {
-        height: 250px;
+    .block__img {
+    width: 100%;
+    margin-bottom: 18px;
     }
-    .Block__text-wrapper {
-        margin-bottom: 49px;
+    .block__text-wrapper {
+        margin-bottom: 50px;
     }
-    .Block__img {
-        margin-bottom: 18px;
-    }
-    .Block__title {
+    .block__title {
         font-size: 18px;
         line-height: 25px;   
         margin-bottom: 11px; 
     }
-    .Block__link {
+    .block__link {
         font-size: 16px;
         line-height: 22px;
 
     }
-    .Block__text-wrapper:nth-last-child(2) {
+    .block__text-wrapper:nth-last-child(2) {
         margin-bottom: 60px;
     }
     .btn__seeAllProjects {
