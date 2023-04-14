@@ -4,9 +4,10 @@
     background-size: cover;
 }
 
-.services.container {
+.services {
     color: #FFFFFF;
     padding-bottom: 150px;
+    padding-top: 150px;
 }
 
 .service__inner {

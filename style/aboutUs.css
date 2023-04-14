@@ -1,8 +1,9 @@
 
 /* Тело */
 
-.about__us.container {
+.about__us {
     padding-top: 128px;
+    padding-bottom: 150px;
 }
 h1 {
     max-width: 956px;
@@ -77,14 +78,11 @@ h2.about__Us {
 
 /* Аддаптив под Планшет */
   @media (max-width: 1199px) {
-    .about__us.container {
-        padding-top: 128px;
-    }
-    
+
     .about__us {
         box-sizing: border-box;
         width: 100%;
-        padding: 0px 15px 0px 15px;
+        padding: 128px 15px 0px 15px;
     }
     h1 {
         max-width: 802px;
@@ -115,12 +113,9 @@ h2.about__Us {
 }
 /* Аддаптив под Мобильный */
     @media (max-width: 767px) {
-        .about__us.container {
-            padding-top: 108px;
-        }
-        
+
         .about__us {
-            padding: 0px 12px 0px 13px;
+            padding: 108px 12px 0px 13px;
         }
         h1 {
             max-width: 348px;
