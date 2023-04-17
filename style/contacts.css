@@ -1,49 +1,38 @@
 /* Contacts */
 
 .contacts__wrapper {
-    width: 1150px;
-    margin: 0px auto 160px;
-    box-sizing: content-box;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    letter-spacing: -0.03em;
 }
 
-.contacts__wrapper::before {
+.telephone__number::before {
     display: block;
     content: "";
     width: 24px;
     height: 24px; 
-    margin-bottom: 12px;
+    margin-bottom: 26px;
     margin-left: -5px;
     background-image: url(../resources/ic_outline-phone.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
+    cursor: pointer;
 }
 
 .contacts__text {
-    width: 90px;
-    size: 18px;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 26px;
 }
 
-.telephone__number {
-    width: 480px;
-    margin-bottom: 30px;
-    letter-spacing: -0.04em;
-}
 
 .number {
     text-decoration: none;
     color: #121212;
+    font-size: 60px;
+    line-height: 60px;
 }
 
 .mail {
-    width: 412px;
-    height: 60px;
-    font-weight: 400;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -51,5 +40,63 @@
     color: #121212;
     opacity: 0.5;
     border-bottom: 1.2px solid;
-    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+.mail::before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+    color: #121212;
+    opacity: 1;
+    background-image: url(../resources/TG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.contacts__inner {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 97px;
+}
+@media (max-width: 1199px) {
+.contacts__wrapper {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.contacts__inner {
+    gap: 110px;
+}
+.number, .mail {
+    font-size: 45px;
+}
+.contacts__text {
+    margin-bottom: 23px;
+}
+}
+@media (max-width: 767px) {
+.contacts__wrapper, .mail {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.number, .mail {
+    font-size: 35px;
+    line-height: 46px;
+}
+.contacts__inner {
+    flex-direction: column;
+    row-gap: 76px;
+}
+.telephone__number::before {
+    width: 18px;
+    height: 18px; 
+}
+.mail::before {
+    width: 18px;
+    height: 18px;
+}
 }

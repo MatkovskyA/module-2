@@ -1,28 +1,30 @@
 .footer {
     background-color: #121212;
     color: white;
-    min-width: 1400px;
-    height: 229px;
-    margin: 0 auto;
 }
 
-.footer__box {
-    width: 450px;
-    height: 25px;
+.nav {
+    display: flex;
+    justify-content: center;
     padding-top: 60px;
     padding-bottom: 87px;
-    margin: 0 auto;
+
+}
+
+.footer__inner {
+    padding-bottom: 30px;
 }
 
 .footer__nav {
-    display: inline-block;
-    margin-right: 50px;
+    display: block;
+    padding: 10px 26px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .footer__nav:hover {
@@ -36,11 +38,25 @@
 }
 
 .footer__text {
-    width: 389px;
-    height: 27px;
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
     opacity: 0.5;
-    margin: 0 auto 30px;
+    text-align: center;
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    .footer__nav {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 5px 15px;
+    }
+    .footer__text {
+        font-size: 13px;
+        line-height: 18px;
+    }
 }

@@ -34,7 +34,7 @@
             </div>
         </div>
     </header>
--->
+
     <main>
         <div class="about__us container">
             <h1>
@@ -193,7 +193,6 @@
                 </li>  
             </ul>
         </div>
-   
     <section class="gallery-section">
         <div class="gallery">
             <div class="gallery__title-wrapper">
@@ -204,8 +203,8 @@
             <div class="gallery__controls-wrapper">
                 <div class="container">
                     <div class="gallery__controls">
-                        <button class="gallery__prev"></button>
-                        <button class="gallery__next"></button>
+                        <button class="gallery__control-prev"></button>
+                        <button class="gallery__control-next"></button>
                     </div>
                 </div>
             </div>
@@ -218,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__slide">
                     <img class="slide__image" src="resources/galleryLighthouse.png" alt="Дизайн гостинной"/>
                     <div class="gallery__slide-title">
                         <div class="container">
@@ -226,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__slide">
                     <img class="slide__image" src="resources/galleryKitchen-livingroom.png" alt="Дизайн кухни-гостинной"/>
                     <div class="gallery__slide-title">
                         <div class="container">
@@ -234,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="gallery__slide gallery__slide_active">
+                <div class="gallery__slide">
                     <img class="slide__image" src="resources/galleryNorthWind.png" alt="Дизайн гостинной"/>
                     <div class="gallery__slide-title">
                         <div class="container">
@@ -245,32 +244,39 @@
             </div>
         </div>
 </section>
-         <!--
+    -->
 
-        <section class="contacts__wrapper">
-            <div id="contacts" class="contacts">
-                <h2 class="contacts__text">КОНТАКТЫ</h2>
-                <h1 class="telephone__number">
-                    <a href="tel:+79358954535" class="number">+7 935 &nbsp; 895-45-35</a>
-                </h1>
-                <h1>
-                    <a href="mailto:hello@mail.com" class="mail" class="line"> 
-                    hello@mail.com
-                    </a>
-                </h1>
+<section class="contacts__wrapper container">
+    <h2 class="contacts__text">КОНТАКТЫ</h2>
+    <ul id="contacts" class="contacts__inner">
+        <li class="contact">
+            <div class="telephone__number">
+                <a href="tel:+79358954535" class="number">+7 935 895-45-35</a>
             </div>
-        </section>   
+        </li>
+        <li class="contact">
+            <div class="tg__contact">
+                <a href="https://t.me/Mat_Kovsky" class="mail" class="line"> 
+                @Mat_Kovsky
+                </a>
+            </div>
+        </li>
+    </ul>
+</section>   
     </main> 
     <footer class="footer">
-        <h2 class="footer__box">
-            <a href="#aboutUs" class="footer__nav">О НАС</a>
-            <a href="#projectsF" class="footer__nav">ПРОЕКТЫ</a>
-            <a href="#services__c" class="footer__nav">УСЛУГИ</a>
-            <a href="#contacts" class="footer__nav">КОНТАКТЫ</a>
-        </h2>
-        <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+        <div class="container">
+            <div class="footer__inner">
+                <nav class="nav">
+                    <a href="#aboutUs" class="footer__nav">О НАС</a>
+                    <a href="#projectsF" class="footer__nav">ПРОЕКТЫ</a>
+                    <a href="#services__c" class="footer__nav">УСЛУГИ</a>
+                    <a href="#contacts" class="footer__nav">КОНТАКТЫ</a>
+                </nav>
+                <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+            </div>
+        </div>
     </footer>
-    -->
     <script src="gallery.js"></script>
 </body>
 </html>

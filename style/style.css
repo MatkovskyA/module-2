@@ -17,7 +17,10 @@ body {
     font-weight: 400px;
     font-style: normal;
     letter-spacing: -0.03em;
+}
 
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 h1, .firstBlockUs p, h2.about__Us, .about__company p, 
