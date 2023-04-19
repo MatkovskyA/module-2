@@ -11,7 +11,7 @@
     content: "";
     width: 24px;
     height: 24px; 
-    margin-bottom: 26px;
+    margin-bottom: 24px;
     margin-left: -5px;
     background-image: url(../resources/ic_outline-phone.png);
     background-size: cover;
@@ -21,7 +21,9 @@
 }
 
 .contacts__text {
-    margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
 }
 
 
@@ -68,18 +70,29 @@
     margin-top: 120px;
     margin-bottom: 120px;
 }
+.telephone__number::before {
+    margin-bottom: 27px;
+}
 .contacts__inner {
     gap: 110px;
 }
 .number, .mail {
     font-size: 45px;
 }
+
 .contacts__text {
     margin-bottom: 23px;
 }
 }
-@media (max-width: 767px) {
-.contacts__wrapper, .mail {
+
+@media (max-width: 778px) {
+
+.contacts__text {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+.contacts__wrapper {
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -89,14 +102,26 @@
 }
 .contacts__inner {
     flex-direction: column;
-    row-gap: 76px;
+    row-gap: 20px
 }
 .telephone__number::before {
     width: 18px;
     height: 18px; 
+    margin-bottom: 20px;
+}
+.mail {
+    opacity: 1;
+    border-bottom: none;
 }
 .mail::before {
     width: 18px;
     height: 18px;
+    margin-bottom: 21px;
 }
+}
+
+@media (max-width: 373px) {
+    .number, .mail {
+        font-size: 9vw;
+    }
 }

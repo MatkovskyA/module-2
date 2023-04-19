@@ -16,10 +16,11 @@
 
 .footer__nav {
     display: block;
-    padding: 10px 26px;
+    padding-right: 53px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: -0.03em;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -27,8 +28,6 @@
 }
 
 .footer__nav:hover {
-    padding-bottom: 2px;
-    border-bottom: 1.2px solid;
     opacity: 0.5;
 }
 
@@ -52,7 +51,7 @@
     .footer__nav {
         font-size: 12px;
         line-height: 16px;
-        padding: 5px 15px;
+        padding: 0px 15px;
     }
     .footer__text {
         font-size: 13px;
@@ -62,4 +61,16 @@
         padding-top: 30px;
         padding-bottom: 41px;
     }
+}
+@media (max-width: 350px) {
+
+    .footer__nav {
+        font-size: 4vw;
+        padding: 1vw 3vw;
+        white-space: nowrap;
+    }
+    .footer__text {
+        font-size: 4vw;
+    }
+
 }
