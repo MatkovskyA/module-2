@@ -75,7 +75,7 @@
     width: 40px;
     height: 40px;
     border: none;
-    background: url("/resources/ic_back.png") left center/auto no-repeat;
+    background: url("../resources/ic_back.png") left center/auto no-repeat;
   }
 
   .gallery__control-prev:hover, .gallery__control-next:hover {
