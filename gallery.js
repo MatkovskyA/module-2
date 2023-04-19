@@ -10,11 +10,11 @@ init();
 
 function init() {
     activeId = 0;
-    
+
     prevButtonNode.addEventListener('click', () => {
         setActiveSlideById(getPrevId());
     });
-    
+
     nextButtonNode.addEventListener('click', () => {
         setActiveSlideById(getNextId());
     });
@@ -33,5 +33,5 @@ function getPrevId() {
 }
 
 function getNextId() {
-    return activeId === (slidesNodes.length - 1) ? 0: activeId + 1;
+    return activeId === (slidesNodes.length - 1) ? 0 : activeId + 1;
 }
