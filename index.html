@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="style/projects.css">
     <link rel="stylesheet" href="style/reviews.css">
     <link rel="stylesheet" href="style/services.css">
+    <link rel="stylesheet" href="style/popup.css">
 </head>
 <body>
     <!--
@@ -34,7 +35,7 @@
             </div>
         </div>
     </header>
--->
+
     <main>
         <div class="about__us container">
             <h1>
@@ -117,6 +118,7 @@
                     <a class="btn__seeAllProjects" href="#projectsF">Смотреть все проекты</a>
                 </ul> 
         </div>
+        -->
         <section class="section__services">
             <div id="services__c" class="services container">
                 <h2 class="services__title">УСЛУГИ</h2>
@@ -164,9 +166,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="btn services__btn">Заказать услугу</div>
+                <div class="js-btn services__btn">Заказать услугу</div>
+                <div class="js-popup popup">
+                    <div class="js-popup__contetnt popup__content">
+                        <div class="js-popup__close-btn popup__close-btn">
+                            <img class="cross__btn" 
+                                 src="resources/ic_cross.png" 
+                                 alt="закрыть">
+                        </div>
+                        <div class="popup__inner">
+                         <p class="popup__title">Заказать услугу</p>
+                         <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+<!--
         </section>
         <div class="all__reviews container">
             <h2 class="reviews">ОТЗЫВЫ</h2>
@@ -276,6 +291,8 @@
             </div>
         </div>
     </footer>
+-->
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
 </html>

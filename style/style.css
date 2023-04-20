@@ -1,11 +1,12 @@
-@import "/style/contacts.css";
-@import "/style/footer.css";
-@import "/style/header.css";
-@import "/style/projects.css";
-@import "/style/services.css";
-@import "/style/aboutUs.css";
-@import "/style/reviews.css";
-@import "/style/gallery.css";
+@import "contacts.css";
+@import "footer.css";
+@import "header.css";
+@import "projects.css";
+@import "services.css";
+@import "aboutUs.css";
+@import "reviews.css";
+@import "gallery.css";
+@import "popup.css";
 
 
 html {
@@ -26,7 +27,7 @@ body {
 h1, .firstBlockUs p, h2.about__Us, .about__company p, 
 .btn, h2.reviews__block, .reviews__title, .reviews p,
 .forestSceneryText, .block__title, .block__link, .review__title,
-.review__text, .btn__aboutUs__link, .btn__seeAllProjects, p {
+.review__text, .btn__aboutUs__link, .btn__seeAllProjects, p, .popup__title {
     letter-spacing: -0.03em;
 }
 
