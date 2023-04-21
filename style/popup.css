@@ -53,7 +53,7 @@
 .popup__text {
     font-size: 18px;
     line-height: 25px;
-    padding-bottom: 373px;
+    padding-bottom: 60px;
 }
 
 .send__btn {
@@ -80,8 +80,8 @@
 
 @media (max-width: 767px) {
     .popup__close-btn {
-        top: 40px;
-        right: 29px;
+        top: 32px;
+        right: 21px;
         background-size: 30px;
     }
 
@@ -100,7 +100,7 @@
         margin: 0 auto;
         font-size: 14px;
         line-height: 19px;
-        padding-bottom: 310px;
+        padding-bottom: 60px;
     }
 
 }
