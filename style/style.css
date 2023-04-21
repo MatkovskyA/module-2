@@ -20,6 +20,10 @@ body {
     letter-spacing: -0.03em;
 }
 
+.body__fixed {
+  overflow: hidden;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
