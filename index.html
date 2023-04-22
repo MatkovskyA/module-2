@@ -21,21 +21,27 @@
     <link rel="stylesheet" href="style/popup.css">
 </head>
 <body>
-    <!--
     <header class="header">
-        <div class="nav_section container">
-            <a class="logo_link" href="/">
-                <img class="logo" src="resources/logo.png" alt="Логотип">
-            </a>
-            <div class="nav">
-                <a href="#aboutUs" class="nav_link">О НАС</a>
-                <a href="#projectsF" class="nav_link">ПРОЕКТЫ</a>
-                <a href="#services__c" class="nav_link">УСЛУГИ</a>
-                <a href="#contacts" class="nav_link">КОНТАКТЫ</a>
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#" title="Дизайн-студия Метрика">
+                    <img src="resources/logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav class="navig">
+                    <a href="#aboutUs" class="nav_link">О НАС</a>
+                    <a href="#projectsF" class="nav_link">ПРОЕКТЫ</a>
+                    <a href="#services__c" class="nav_link">УСЛУГИ</a>
+                    <a href="#contacts" class="nav_link">КОНТАКТЫ</a>
+                </nav>
+                <div class="js-burger__btn burger__btn"></div>
             </div>
         </div>
+        <div class="js-burger burger">
+            <div class="js-burger__content burger__content"></div>
+        </div>
     </header>
-
     <main>
         <div class="about__us container">
             <h1>
@@ -61,6 +67,7 @@
                 </p>
             <a class="btn__aboutUs__link" href="#services__c">Посмотреть услуги</a>
         </div> 
+         <!--
         <div id="projectsF" class="projectsFull container">
             <h2 class="projects">ПРОЕКТЫ</h2>
                 <ul class="containerProjects">
@@ -182,7 +189,6 @@
                  <button type="submit" class="send__btn">Отправить</button>
             </div>
         </div>
-        <!--
         <div class="all__reviews container">
             <h2 class="reviews">ОТЗЫВЫ</h2>
             <ul class="reviews__inner">
@@ -209,74 +215,74 @@
                 </li>  
             </ul>
         </div>
-    <section class="gallery-section">
-        <div class="gallery">
-            <div class="gallery__title-wrapper">
-                <div class="container">
-                    <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
-                </div>
-            </div>
-            <div class="gallery__controls-wrapper">
-                <div class="container">
-                    <div class="gallery__controls">
-                        <button class="gallery__control-prev"></button>
-                        <button class="gallery__control-next"></button>
+        <section class="gallery-section">
+            <div class="gallery">
+                <div class="gallery__title-wrapper">
+                    <div class="container">
+                        <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__slides">
-                <div class="gallery__slide gallery__slide_active">
-                    <img class="slide__image" src="resources/galleryForestLandscape.png" alt="Дизайн спальни"/>
-                    <div class="gallery__slide-title">
-                        <div class="container">
-                            <p class="gallery__text">Проект  Двухкомнтаной<br>квартиры в ЖК Лесной Пейзаж</p>
+                <div class="gallery__controls-wrapper">
+                    <div class="container">
+                        <div class="gallery__controls">
+                            <button class="gallery__control-prev"></button>
+                            <button class="gallery__control-next"></button>
                         </div>
                     </div>
                 </div>
-                <div class="gallery__slide">
-                    <img class="slide__image" src="resources/galleryLighthouse.png" alt="Дизайн гостинной"/>
-                    <div class="gallery__slide-title">
-                        <div class="container">
-                            <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+                <div class="gallery__slides">
+                    <div class="gallery__slide gallery__slide_active">
+                        <img class="slide__image" src="resources/galleryForestLandscape.png" alt="Дизайн спальни"/>
+                        <div class="gallery__slide-title">
+                            <div class="container">
+                                <p class="gallery__text">Проект  Двухкомнтаной<br>квартиры в ЖК Лесной Пейзаж</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="gallery__slide">
+                        <img class="slide__image" src="resources/galleryLighthouse.png" alt="Дизайн гостинной"/>
+                        <div class="gallery__slide-title">
+                            <div class="container">
+                                <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slide">
+                        <img class="slide__image" src="resources/galleryKitchen-livingroom.png" alt="Дизайн кухни-гостинной"/>
+                        <div class="gallery__slide-title">
+                            <div class="container">
+                                <p class="gallery__text">Визуализация кухни-гостиной<br>в частном доме</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slide">
+                        <img class="slide__image" src="resources/galleryNorthWind.png" alt="Дизайн гостинной"/>
+                        <div class="gallery__slide-title">
+                            <div class="container">
+                                <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-                <div class="gallery__slide">
-                    <img class="slide__image" src="resources/galleryKitchen-livingroom.png" alt="Дизайн кухни-гостинной"/>
-                    <div class="gallery__slide-title">
-                        <div class="container">
-                            <p class="gallery__text">Визуализация кухни-гостиной<br>в частном доме</p>
-                        </div>
+            </div>
+        </section>
+        <section class="contacts__wrapper container">
+            <h2 class="contacts__text">КОНТАКТЫ</h2>
+            <ul id="contacts" class="contacts__inner">
+                <li class="contact">
+                    <div class="telephone__number">
+                        <a href="tel:+79358954535" class="number">+7 935 895-45-35</a>
                     </div>
-                </div>
-                <div class="gallery__slide">
-                    <img class="slide__image" src="resources/galleryNorthWind.png" alt="Дизайн гостинной"/>
-                    <div class="gallery__slide-title">
-                        <div class="container">
-                            <p class="gallery__text">Проект гостиной в ЖК Маяк</p>
-                        </div>
+                </li>
+                <li class="contact">
+                    <div class="tg__contact">
+                        <a target="_blank" href="https://t.me/Mat_Kovsky" class="mail"> 
+                        @Mat_Kovsky
+                        </a>
                     </div>
-                </div> 
-            </div>
-        </div>
-</section>
-<section class="contacts__wrapper container">
-    <h2 class="contacts__text">КОНТАКТЫ</h2>
-    <ul id="contacts" class="contacts__inner">
-        <li class="contact">
-            <div class="telephone__number">
-                <a href="tel:+79358954535" class="number">+7 935 895-45-35</a>
-            </div>
-        </li>
-        <li class="contact">
-            <div class="tg__contact">
-                <a target="_blank" href="https://t.me/Mat_Kovsky" class="mail"> 
-                @Mat_Kovsky
-                </a>
-            </div>
-        </li>
-    </ul>
-</section>   
+                </li>
+            </ul>
+        </section>   
     </main> 
     <footer class="footer">
         <div class="container">
@@ -291,8 +297,8 @@
             </div>
         </div>
     </footer>
--->
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html>
