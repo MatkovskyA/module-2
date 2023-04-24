@@ -17,12 +17,12 @@
     display: flex;
     justify-content: space-between;  
     align-items: center;
-    padding: 33px 0;
+    padding: 31px 0;
 }
 
 .header__nav {
     display: flex;
-    gap: 20px;
+    gap: 57px;
 }
 
 
