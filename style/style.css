@@ -22,7 +22,7 @@ body {
     letter-spacing: -0.03em;
 }
 
-.body__fixed {
+.body_fixed {
   overflow: hidden;
 }
 

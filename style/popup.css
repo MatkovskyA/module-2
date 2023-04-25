@@ -18,6 +18,7 @@
 .popup__open {
     opacity: 1;
     visibility: visible;
+    z-index: 108;
 }
 
 .popup__content {
