@@ -44,15 +44,15 @@ h2.projects {
     text-decoration: none;
     color: #ad1818;
     transition: color 0.3s;
-  }
-  
-  .btn__seeAllProjects:hover {
+}
+
+.btn__seeAllProjects:hover {
     color: #ffffff;
     background-color: #ad1818;
     transition: 0.3s;
-  }
+}
 
-  @media (max-width: 1199px) {
+@media (max-width: 1199px) {
 
     .projectsFull {
         padding: 119px 17px 100px 15px;
